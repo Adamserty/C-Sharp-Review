@@ -1,10 +1,19 @@
 ﻿using System;
+
 namespace Review
 {
-    public class EmptyClass
+    class Program2
     {
-        public EmptyClass()
+        static void MyMethod()
         {
+            Console.WriteLine("I a being used");
         }
+
+        static void Main(string[] args)
+        {
+            MyMethod();
+            MyMethod();
+            MyMethod();
+        }
+
     }
-}

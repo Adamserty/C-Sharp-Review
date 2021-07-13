@@ -1,0 +1,8 @@
+// Syntax Exercise
+// Insert the missing part of the code below to output "Hello World!".
+
+static void Main(string[] args)
+{
+  Console.WriteLine("Hello World!");    
+}
+

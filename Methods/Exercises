@@ -1,5 +1,5 @@
 // Methods Exercise 1
-//Create a method named MyMethod and call it inside Main().
+// Create a method named MyMethod and call it inside Main().
 
 using System;
 
@@ -12,9 +12,7 @@ MyMethod
 
 static void Main(string[] args)
 {
-  
-MyMethod();
-
+  MyMethod();
 }
 
 
@@ -31,10 +29,38 @@ static void MyMethod()
 
 static void Main(string[] args)
 {
-  
-MyMethod();
+ MyMethod();
+ MyMethod();
+}
 
-  
-MyMethod();
+// Methods Exercise 3
+// Add a fname parameter of type string to MyMethod.
 
+using System;
+
+static void MyMethod(string fname) 
+{
+  Console.WriteLine(fname + " Refsnes");
+}
+
+static void Main(string[] args)
+{
+  MyMethod("Liam");
+  MyMethod("Jenny");
+  MyMethod("Anja");
+}
+
+// Methods Exercise 4
+// Insert the missing part to print the number 8 in Main, by using a specific keyword inside MyMethod
+
+using System;
+
+static int MyMethod(int x) 
+{
+  return 5 + x;
+}
+
+static void Main(string[] args)
+{
+  Console.WriteLine(MyMethod(3));
 }

@@ -1,0 +1,40 @@
+// Methods Exercise 1
+//Create a method named MyMethod and call it inside Main().
+
+using System;
+
+static void 
+MyMethod
+() 
+{
+  Console.WriteLine("I just got executed!");
+}
+
+static void Main(string[] args)
+{
+  
+MyMethod();
+
+}
+
+
+
+//Methods Exercise 2
+//Insert the missing parts to call MyMethod two times.
+
+using System;
+
+static void MyMethod() 
+{
+  Console.WriteLine("I just got executed!");
+}
+
+static void Main(string[] args)
+{
+  
+MyMethod();
+
+  
+MyMethod();
+
+}

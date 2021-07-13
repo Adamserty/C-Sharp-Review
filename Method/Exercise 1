@@ -1,0 +1,18 @@
+// Methods
+//Create a method named MyMethod and call it inside Main().
+
+using System;
+
+static void 
+MyMethod
+() 
+{
+  Console.WriteLine("I just got executed!");
+}
+
+static void Main(string[] args)
+{
+  
+MyMethod();
+
+}

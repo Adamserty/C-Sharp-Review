@@ -1,0 +1,90 @@
+// Classes Exercise 1
+// Create a class called MyClass.
+
+using System;
+
+
+class MyClass
+
+// Classes Exercise 2
+// Create an object of MyClass called myObj.
+
+using System;
+
+class MyClass
+
+MyClass myObj = new MyClass();
+
+// Classes Exercise 3
+// Create an object of Car called myObj, and use it to set the value of maxSpeed to 200.
+
+using System;
+
+class Car 
+{
+  int maxSpeed;
+
+  static void Main(string[] args)
+  {
+    Car MyObj = new Car();
+    myObj.maxspeed = 200;
+    Console.WriteLine(myObj.color)
+    Console.WriteLine(myObj.maxSpeed);
+  }
+}
+
+// Class Exercise 4
+// Call the fullThrottle() method from the object
+
+using System;
+
+class Car 
+{
+  public void fullThrottle()
+  {
+    Console.WriteLine("The car is going as fast as it can!"); 
+  }
+
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    myObj.fullThrottle();
+  }
+}
+
+// Class Exercise 5
+// Create a constructor of Car, and call it
+
+using System;
+
+class Car
+{
+  public string model;
+
+  public Car()
+
+  {
+    model = "Mustang";
+  }
+
+  static void Main(string[] args)
+  {
+    Car Ford = new Car();
+    Console.WriteLine(Ford.model);
+  }
+}
+
+// Class Exercise 6
+// Use an access modifier to make the model variable NOT accessible from outside its own class.
+
+using System;
+
+private string model;
+
+
+// Class Exercise 7
+// The Car class should inherit the class members from the Vehicle class. Fill in the missing part to make this possible.
+
+using System;
+
+class Car : Vehicle
